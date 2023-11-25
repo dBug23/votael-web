@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    font-size: 1em;
+    /* border: 1px solid black; */
+}
+
+body{
+    /* width: 100vw; */
+    overflow: auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-width: 425px;
+}
+
+                        /* HEADER ELEMENT */
+
+header{
+    display: flex;
+    background-color: black;
+    max-height: 10%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+img.logo1{
+    border: none;
+    display: block;
+    width:15%;
+    margin-top: -20px;
+    margin-left: -3px;
+}
+
+nav{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav ul{
+    border: 2px solid black;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    border: 1px solid black;
+    padding: 0 10px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+                        /* MAIN ELEMENT */
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* min-width: 420px; */
+
+}
+section{
+    min-width: 420px;
+    
+}
+
+article{
+    border: 1px solid black;
+    height: 100vh;
+}
+
+h2{
+    font-size: 2em;
+    font-style: italic;
+}
+
+                        /* ABOUT US */
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.deals{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals p{
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dist_img-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.dist_img{
+    display: block;
+    width:150px;
+    border: none;
+}
+
+                       /* CONTACT US */
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+                        /* FOOTER ELEMENT */
+
+footer{
+    display: flex;
+    max-height: 10%;
+    overflow: hidden;
+}
+
+img.logo2{
+    display: block;
+    width: 15%;
+    margin-top: -10px;
+    margin-left: -3px;
+}
+
+footer p{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+    padding: 5px 0;
+}
+
